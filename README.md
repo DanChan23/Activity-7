@@ -1,5 +1,7 @@
 # README
 
-This is a simple rail application that is able to find string in the database
+This is a simple rail application that will connect scaffolds using their IDs.
 
-# Activity_6
+This is still under development.
+
+# Activity-7

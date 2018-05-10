@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   
+  resources :clients
+  resources :trainers
+  get 'clients/:id' => 'clients#show'
   post 'workouts/find' => 'workouts#find'
   
   resources :workouts

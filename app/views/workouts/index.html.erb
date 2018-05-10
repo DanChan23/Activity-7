@@ -17,8 +17,8 @@
   <tbody>
     <% @workouts.each do |workout| %>
       <tr>
-        <td><%= workout.client_name %></td>
-        <td><%= workout.trainer %></td>
+        <td><a href = "http://localhost:3000/clients/<%= workout.id %>"><%= workout.client_name %></a></td>
+        <td><a href = "http://localhost:3000/trainers/<%= workout.id %>"><%= workout.trainer %></a></td>
         <td><%= workout.duration_mins %></td>
         <td><%= workout.date_of_workout %></td>
         <td><%= workout.paid_amount %></td>

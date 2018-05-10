@@ -24,6 +24,7 @@ class WorkoutsController < ApplicationController
     def find
         puts params[:search_string]
         @results = Workout.where(client_name: params[:search_string])
+	
     end
 
 
